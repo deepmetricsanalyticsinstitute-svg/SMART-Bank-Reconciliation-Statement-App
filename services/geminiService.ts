@@ -17,7 +17,7 @@ const transactionSchema: Schema = {
   }
 };
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT' });
 
 /**
  * Converts a File object to a Base64 string for Gemini
