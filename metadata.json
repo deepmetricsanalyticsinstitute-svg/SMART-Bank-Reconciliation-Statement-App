@@ -1,0 +1,5 @@
+{
+  "name": "Reconciliation App",
+  "description": "An intelligent bank reconciliation tool that parses Bank Statements and General Ledgers (PDF/CSV) using Gemini models to automatically identify matches and discrepancies.",
+  "requestFramePermissions": []
+}
